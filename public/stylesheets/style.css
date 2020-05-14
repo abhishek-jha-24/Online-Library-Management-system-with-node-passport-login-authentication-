@@ -1,0 +1,95 @@
+p.small {
+  line-height: 0.4;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+
+
+p.options{
+	color: blue;
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #e5e4d7;
+	padding: 20px;
+
+	border-color: black;
+	line-height: 1.0;
+	border-width: 2px;
+	border-style: solid;
+}
+
+p.name{
+	color: black;
+	font-size: 30px;
+	font-weight: bolder;
+	text-decoration: underline;
+
+}
+p.abc{
+	color: blue;
+	font-size: 25px;
+	
+}
+
+
+p.logout{
+	color: red;
+	font-size: 25px;
+
+}
+
+p.des{
+	color: black;
+	font-size: 20px;
+	
+}
+p.help{
+	color: black;
+	font-size: 20px;
+	
+}
+
+p.hell{
+	color: blue;
+	font-size: 20px;
+	background-color: #e5e4d7;
+	padding: 20px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+li.options{
+	color: blue;
+	font-size: 25px;
+	background-color: #e5e4d7;
+	padding: 20px;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+}
+
+
+
+p.get{
+	color: black;
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #e5e4d7;
+	padding: 0px 25px 10px;
+
+	border-color: black;
+	line-height: 0.8;
+	border-width: 5px;
+	border-style: solid;
+}
+
+h1 {
+	font-size: 30px;
+	color: black;
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: underline;
+
+}

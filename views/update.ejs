@@ -1,0 +1,50 @@
+
+
+
+
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+      <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>  Update</h1>
+      <%-include('./partials/messages.ejs');%>
+
+
+
+      <form action="/update" method="post">
+        <div class="form-group">
+          <label for="BOOK_code">BOOK_code</label>
+          <input
+            type="text"
+            id="BOOK_name"
+            name="BOOK_code"
+            class="form-control"
+            placeholder="Enter BOOK_code"
+          />
+        </div>
+        <div class="form-group">
+          <label for="BOOK_name">BOOK_name</label>
+          <input
+            type="text"
+            id="BOOK_name"
+            name="BOOK_name"
+            class="form-control"
+            placeholder="Enter BOOK_name"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Author">Author</label>
+          <input
+            type="text"
+            id="Author"
+            name="Author"
+            class="form-control"
+            placeholder="Enter Author"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">UPDATE</button>
+        </form>
+
+      </p>
+    </div>
+  </div>
+</div>

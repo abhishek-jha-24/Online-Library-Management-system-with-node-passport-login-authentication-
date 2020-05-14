@@ -1,0 +1,44 @@
+
+
+
+<div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body">
+      <h1 class="text-center mb-3"><i class="fas fa-sign-in-alt"></i>  INSERT</h1>
+
+
+
+
+      <form action="/Issue" method="post">
+        <div class="form-group">
+          <label for="BOOK_code">BOOK_code</label>
+          <input
+            type="text"
+            id="BOOK_name"
+            name="BOOK_code"
+            class="form-control"
+            placeholder="Enter BOOK_code"
+            value="<%= typeof BOOK_code != 'undefined' ? BOOK_code : '' %>"
+          />
+        </div>
+        <div class="form-group">
+          <label for="Roll_Id">Roll_Id</label>
+          <input
+            type="text"
+            id="Roll_Id"
+            name="Roll_Id"
+            class="form-control"
+            placeholder="Enter Roll_Id"
+            value="<%= typeof Roll_Id != 'undefined' ? Roll_Id : '' %>"
+          
+          />
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-block">Issue!</button>
+        </form>
+
+      </p>
+    </div>
+  </div>
+</div>
+

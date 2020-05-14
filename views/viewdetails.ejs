@@ -1,0 +1,22 @@
+
+
+<ul>
+  <% for(var person of items) { %>
+  <li>
+	  <font size="+2">
+      
+      <p class="get"><br/>Book code: <%= person.BOOK_code %><br/>
+      <br/>Book Name: <%= person.BOOK_name %><br/>
+      <br/>Author: <%= person.Author %><br/>
+      <br/><a href="/Renew/<%= person.BOOK_code %> ">Renew</a><br/>
+      <br/><a href="/Return/<%= person.BOOK_code %> ">Return Book</a><br/></p></li>
+     
+      </font>
+      <% } %>
+  
+
+
+  
+</ul>
+
+  
